@@ -1,0 +1,19 @@
+%h1 Listing pins
+
+%table{:class => "table"}
+  %thead 
+    %tr
+      %th Description
+      %th
+      %th
+      %th
+
+ 
+  %tbody
+    = render @pins 
+
+%br
+
+= link_to 'New Pin', new_pin_path , :class => "btn btn-warning"
+%br
+%br
