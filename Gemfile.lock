@@ -61,6 +61,8 @@ GEM
       railties (>= 3.1, < 4.1)
     hike (1.2.1)
     i18n (0.6.4)
+    intercom-rails (0.2.16)
+      activesupport (> 3.0)
     journey (1.0.4)
     jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
@@ -140,6 +142,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   haml-rails
+  intercom-rails (~> 0.2.14)
   jquery-rails
   paperclip (~> 3.0)
   pg
