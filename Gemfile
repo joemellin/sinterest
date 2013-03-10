@@ -32,6 +32,7 @@ end
 
 gem 'simple_form'
 gem "paperclip" , "~> 3.0"
+gem 'aws-sdk'
 gem 'jquery-rails'
 gem 'intercom-rails', '~> 0.2.14'
 
