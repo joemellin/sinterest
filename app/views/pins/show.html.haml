@@ -2,9 +2,11 @@
   .span6.offset3
     .well
       %p
+        = image_tag @pin.image(:medium)
+        %br
         = @pin.description
         = @pin.user.email
-      - if current_user == pin.user
+      - if current_user == @pin.user
         = link_to 'Edit', edit_pin_path(@pin)
         \|
       = link_to 'Back', pins_path
