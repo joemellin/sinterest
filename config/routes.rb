@@ -7,7 +7,7 @@ Sinterest::Application.routes.draw do
   get "about" => "pages#about"
   get "home" => "pages#home"
   get "contact" => "pages#contact"
-  root :to => 'pages#home'
+  root :to => 'pins#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
