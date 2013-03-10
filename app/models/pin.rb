@@ -9,7 +9,7 @@ class Pin < ActiveRecord::Base
 
 
   belongs_to :user
-  has_attached_file :image, styles: { medium: "320x240>", thumb: "50x50>"}
+  has_attached_file :image, styles: { medium: "320x240>", thumb: "50x50>" , large: "480x640>"}
 
 
 

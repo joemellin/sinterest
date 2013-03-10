@@ -5,17 +5,12 @@
         %span.icon-bar
         %span.icon-bar
         %span.icon-bar
-      = link_to "BOOM", root_path , :class => "brand"  
+      = link_to "Pick Your Fizace!", root_path , :class => "brand" , :style => "color : #ccc;"  
       .nav-collapse
-        %ul.nav
-          %li
-            = link_to 'Home',  root_path
-          %li
-            = link_to 'About',  about_path
         %ul.nav.pull-right
 
           - if user_signed_in?
-            %li= link_to "Add Pin", new_pin_path
+            %li= link_to "+ Add Pin", new_pin_path
             %li= link_to 'Edit Profile', edit_user_registration_path
             %li= link_to 'Log Out',  destroy_user_session_path, :method => :delete
           - else
