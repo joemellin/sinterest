@@ -4,7 +4,7 @@
   %p
     %strong
       Posted by 
-      = pin.user.email
+      = pin.user.name
   = link_to 'Show', pin 
   - if current_user == pin.user
     = link_to 'Edit', edit_pin_path(pin)

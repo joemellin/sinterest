@@ -5,7 +5,9 @@
         = image_tag @pin.image(:large)
         %br
         = @pin.description
-        = @pin.user.email
+        %br
+        by
+        = @pin.user.name
       - if current_user == @pin.user
         = link_to 'Edit', edit_pin_path(@pin)
         \|
