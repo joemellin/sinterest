@@ -23,4 +23,5 @@
         %p= raw flash[:alert].html_safe
 
 
-  = yield 
+    = yield 
+    = render 'layouts/footer'
