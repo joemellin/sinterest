@@ -69,9 +69,7 @@ Sinterest::Application.configure do
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
-      :bucket => "assets.ebtgroups.com",
-      :access_key_id => "AKIAIRSFWCTPJJPCEMLA",
-      :secret_access_key => "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"
+
     }
   }
 
